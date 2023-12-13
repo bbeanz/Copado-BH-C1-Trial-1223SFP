@@ -6,8 +6,16 @@
         <visibility>ALL</visibility>
     </categoryGroupVisibilities>
     <custom>true</custom>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Tricycle_Oageng__c.Has_Three_Wheels__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Bicycle_CK__c-Bicycle CK Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Tricycle_Oageng__c-Tricycle OM Layout</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />
     <tabVisibilities>
