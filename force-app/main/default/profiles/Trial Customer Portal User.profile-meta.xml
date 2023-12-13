@@ -14,9 +14,16 @@
     <layoutAssignments>
         <layout>BicycleSVJ__c-BicycleSVJ Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>Bicycle_CK__c-Bicycle CK Layout</layout>
+    </layoutAssignments>
     <loginHours n1:nil="true" />
     <tabVisibilities>
         <tab>BicycleSVJ__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Bicycle_CK__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>High Volume Customer Portal</userLicense>

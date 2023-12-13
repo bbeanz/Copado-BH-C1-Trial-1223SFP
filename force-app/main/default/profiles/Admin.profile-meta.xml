@@ -10,6 +10,9 @@
     <layoutAssignments>
         <layout>BicycleSVJ__c-BicycleSVJ Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>Bicycle_CK__c-Bicycle CK Layout</layout>
+    </layoutAssignments>
     <loginHours n1:nil="true" />
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -20,8 +23,21 @@
         <object>BicycleSVJ__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Bicycle_CK__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <tabVisibilities>
         <tab>BicycleSVJ__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Bicycle_CK__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
