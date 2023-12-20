@@ -29,6 +29,12 @@
         <locationX>176</locationX>
         <locationY>323</locationY>
         <inputAssignments>
+            <field>BillingCity</field>
+            <value>
+                <stringValue>Johannesburg</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
             <field>Name</field>
             <value>
                 <elementReference>$Flow.InterviewStartTime</elementReference>
